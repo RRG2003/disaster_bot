@@ -1,10 +1,10 @@
 from setuptools import find_packages, setup
 
-package_name = 'air_compressor_control'
+package_name = 'vine_control'
 
 setup(
     name=package_name,
-    version='0.1.0',
+    version='0.0.0',
     packages=find_packages(exclude=['test']),
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -14,13 +14,12 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='rishabh',
-    maintainer_email='rishabh@todo.todo',
+    maintainer_email='rishabhgandhi2012@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'air_compressor_control_node = air_compressor_control.air_compressor_control_node:main',
         ],
     },
 )
